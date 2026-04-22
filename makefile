@@ -29,7 +29,7 @@ supabase-reset-database: ## reset (and clear!) the database
 	npx supabase db reset
 
 start-app: ## start the app locally
-	npm run dev
+	nohup npm run dev -- --host > vite.log 2>&1 &
 
 start-app-e2e: ## start the app pointing to the e2e supabase instance
 	npx vite --port 5175 --force --mode e2e &
