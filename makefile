@@ -17,7 +17,7 @@ install: package.json ## install dependencies
 	npm install;
 
 start-supabase: ## start supabase locally
-	npx supabase start
+	npx supabase start --ignore-health-check
 
 start-supabase-functions: ## start the supabase Functions watcher
 	npx supabase functions serve
