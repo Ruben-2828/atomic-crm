@@ -6,4 +6,5 @@ SplunkOtelWeb.init({
     rumAccessToken: "",
     applicationName: 'atomic-crm',
     deploymentEnvironment: 'local-development',
+    allowInsecureBeacon: true
 });
