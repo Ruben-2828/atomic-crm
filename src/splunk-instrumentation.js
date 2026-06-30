@@ -6,8 +6,8 @@ SplunkOtelWeb.init({
     applicationName: 'atomic-crm',
     deploymentEnvironment: 'aws-development',
     allowInsecureBeacon: true,
-    //exporter: {
-    //    otlp: true
-    //},
+    exporter: {
+        otlp: true
+    },
     spaMetrics: true,
 });
