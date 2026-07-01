@@ -1,4 +1,5 @@
-import "./splunk-instrumentation.js";
+// added dynamically during bootstrap
+//import "./splunk-instrumentation.js";
 
 
 import { StrictMode } from "react";
